@@ -69,7 +69,7 @@ services:
     # SIGKILLs the container mid-drain and an upload stays `processing` (#11).
     stop_grace_period: 40s
     ports:
-      - "8000:8000"
+      - "8989:8000"
     volumes:
       - media_data:/app/media
     env_file:
